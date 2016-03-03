@@ -7,6 +7,8 @@ It also sets the proper permissions on to the target directory
 
 --Takes the serverlist file as inline argument
 
+--Prompts for password and uses it for all the servers (Password will not be stored)
+
 --The serverlist file should have IP/hostnames one per line
 
 --No Trailing empty/carriage return line is accepted
@@ -16,10 +18,15 @@ It also sets the proper permissions on to the target directory
 --and exits if no file detected
 
 # Pre-requisites
---       Need Open-SSH installed
+--       Need Open-SSH and sshpass installed
 
 --       Need to have "id_rsa.pub" already generated
 
-#Note
-Use "ssh-keygen -t rsa" to generate if not done yet
+#How to use?
+(1) Install - "sudo apt-get install openssh-server sshpass"
+
+(2) Login as required user
+
+(3) Generate the kesy
+Use "ssh-keygen -t rsa" to generate ssh-keys
 
