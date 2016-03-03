@@ -30,3 +30,17 @@ It also sets the proper permissions on to the target directory
 (3) Generate the kesy
 Use "ssh-keygen -t rsa" to generate ssh-keys
 
+(4) Download the script - Go to /tmp/
+
+wget https://github.com/girishkg/ssh/blob/master/copy_ssh_key.sh
+
+(5) Set permissions - chmod +x copy_ssh_key.sh
+
+(6) Make sure to have a file (ex - serverlist.txt) created and populated with all the IP/hostnames "one-per-line"
+
+(7) Execute the script: ./copy_ssh_key.sh /path/to/serverlist.txt
+
+(8) Follow the onscreen instructions
+
+(9) Cheers...!!
+
