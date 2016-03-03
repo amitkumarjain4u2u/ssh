@@ -20,5 +20,6 @@ It also sets the proper permissions on to the target directory
 
 --       Need to have "id_rsa.pub" already generated
 
---       Use ssh-keygen -t rsa to generate if not done already
+#Note
+Use "ssh-keygen -t rsa" to generate if not done yet
 
